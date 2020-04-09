@@ -28,7 +28,7 @@ const Header = () => {
 					<Nav className='ml-auto' navbar>
 						<NavItem>
 							<NavLink
-								className='btn btn-secondary text-white'
+								className='btn btn-primary text-white'
 								tag={Link}
 								to='/geolocation'>
 								Geolocalização
@@ -44,10 +44,26 @@ const Header = () => {
 						</NavItem>
 						<NavItem>
 							<NavLink
-								className='btn btn-secondary text-white'
+								className='btn btn-success text-white'
 								tag={Link}
 								to='/helloTs'>
 								HelloTS
+							</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink
+								className='btn btn-danger text-white'
+								tag={Link}
+								to='/ghRepositories'>
+								Repositórios Github
+							</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink
+								className='btn btn-warning text-white'
+								tag={Link}
+								to='/exampleUseCallback'>
+								useCallback
 							</NavLink>
 						</NavItem>
 					</Nav>

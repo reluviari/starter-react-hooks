@@ -20,10 +20,14 @@ export default function ExampleUseRef() {
 			<h1>useRef</h1>
 			<hr />
 			<audio src={track} ref={audioRef} /*controls*/ />
-			<button className='btn btn-warning' onClick={handleClickPause}>
+			<button
+				className='btn btn-warning text-white'
+				onClick={handleClickPause}>
 				Pause Music
 			</button>
-			<button className='btn btn-success' onClick={handleClickPlay}>
+			<button
+				className='btn btn-success text-white'
+				onClick={handleClickPlay}>
 				Play Music
 			</button>
 		</div>
